@@ -5,7 +5,7 @@
 .menu-icon {
   display: none;
 }
-.menu-close {
+.header__menu .menu-close {
   display: none;
 }
 .phone {
