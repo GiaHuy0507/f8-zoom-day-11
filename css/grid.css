@@ -270,6 +270,13 @@ a {
   .container {
     max-width: 1140px;
   }
+  .d-lg-none {
+    display: none;
+  }
+
+  .d-xl-none {
+    display: none;
+  }
 
   .col-xl-1 {
     --column-number: 1;
@@ -446,6 +453,10 @@ a {
   .container {
     max-width: 960px;
   }
+  .d-lg-none {
+    display: none;
+  }
+
   .col-lg-1 {
     --column-number: 1;
   }
@@ -619,6 +630,10 @@ a {
   .container {
     max-width: 720px;
   }
+  .d-md-none {
+    display: none;
+  }
+
   .col-md-1 {
     --column-number: 1;
   }
@@ -793,6 +808,10 @@ a {
   .container {
     max-width: 540px;
   }
+  .d-sm-none {
+    display: none;
+  }
+
   .col-sm-1 {
     --column-number: 1;
   }
@@ -967,6 +986,10 @@ a {
   .container {
     max-width: 100%;
   }
+  .d-xs-none {
+    display: none;
+  }
+
   .col-xs-1 {
     --column-number: 1;
   }
