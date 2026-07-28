@@ -13,12 +13,16 @@
   --z-elevated: 2;
   --z-overlay: 3;
 }
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
 
 body {
   font-size: 16px;
+  font-family: "Manrope", sans-serif;
 }
 
 h1,
@@ -31,6 +35,7 @@ h6 {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
