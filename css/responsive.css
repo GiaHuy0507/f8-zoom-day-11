@@ -8,13 +8,10 @@
 .header__menu .menu-close {
   display: none;
 }
-.phone {
-  justify-content: center;
-}
 
-/* .header__menu {
+.header__menu {
   gap: 10px;
-} */
+}
 
 .about__img img {
   width: 470px;
@@ -62,7 +59,10 @@
   header .row {
     justify-content: space-between;
   }
-
+  .title {
+    font-size: 32px;
+    line-height: 42px;
+  }
   .hero-content {
     margin-bottom: 70px;
   }
@@ -238,5 +238,10 @@
 
   .cta-top {
     padding: 40px 16px;
+  }
+
+  .title {
+    font-size: 26px;
+    line-height: 36px;
   }
 }

@@ -36,11 +36,11 @@
 }
 
 .row > [class*="col-"] {
-  flex-basis: calc(100% / var(--column) * var(--column-number));
+  width: calc(100% / var(--column) * var(--column-number));
 }
 
 .row[class*="row-cols-"] > * {
-  flex-basis: calc(100% / var(--row-cols-number));
+  width: calc(100% / var(--row-cols-number));
 }
 
 .row > [class*="offset-"] {
